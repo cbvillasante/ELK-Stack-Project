@@ -163,7 +163,7 @@ Commands used  to download the playbook, update the files.
 
     Ansible hosts file 
 
-[ Ansible hosts file.pdf](https://github.com/cricri2981/ELK-Stack-Proyect/files/8307207/Ansible.hosts.file.pdf)
+
 
 
 
