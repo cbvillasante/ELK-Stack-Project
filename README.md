@@ -153,7 +153,8 @@ Which URL do you navigate to in order to check that the ELK server is running?
     In my infrastructure this is the URL  http://52.190.136.59:5601/ 
     
      
-![Kibana](https://user-images.githubusercontent.com/101161631/159068666-8b02bdfc-2949-421a-a1a5-63056f5d3b8b.png)
+![Kibana](https://user-images.githubusercontent.com/101161631/159082367-57022906-8936-4260-853f-c41e34371090.png)
+
 
 
 
