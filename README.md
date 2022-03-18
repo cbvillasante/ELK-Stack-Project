@@ -37,6 +37,7 @@ What is the advantage of a jump box?
 
 What does Filebeat watch for?
 
+
     Filebeat is part of the ELK stack and monitors the log files or locations that you specify, collects log events and data .  
 
 
@@ -47,15 +48,15 @@ What does Metricbeat record?
 
 The configuration details of each machine may be found below.
 
-    NAME--------------FUNCTION----------------------IP ADDRESS------OPERATING SYSTEM
+    NAME.             FUNCTION.                         IP ADDRESS.             OPERATING SYSTEM
 
-    Jump BoX----------Gateway/Ansible---------------10.0.0.4--------Linux Ubuntu 
+    Jump BoX.         Gateway/Ansible.                  10.0.0.4.               Linux Ubuntu 
 
-    Web-1-------------Web server to run DVWA--------10.0.0.5--------Linux Ubuntu 
+    Web-1.            Web server to run DVWA            10.0.0.5.               Linux Ubuntu 
 
-    Web-2-------------Web server to run DVWA--------10.0.0.6--------Linux Ubuntu
+    Web-2.            Web server to run DVWA            10.0.0.6.               Linux Ubuntu
 
-    Elk---------------Run Elk Container and Kibana-----10.1.0.4--------Linux Ubuntu 
+    Elk.              Run Elk Container and Kibana      10.1.0.4.               Linux Ubuntu 
 
 
 Access Policies
@@ -72,12 +73,12 @@ Which machine did you allow to access your ELK VM? What was its IP address?
 
 A summary of the access policies in place can be found in the table below:
 
-    Name	            Public Accessible	       Allowed IP Address
-    Jump Box	      Yes via Port 22	         68.201.131.45
-    Web-1	            No	                     10.0.0.4
-    Web-2	            No	                     10.0.0.4
-    ELK	            Yes via port 5601	       68.201.131.45
-    Load Balancer	  Yes via port 80	         68.201.131.45
+    Name	             Public Accessible	       Allowed IP Address
+    Jump Box	     Yes via Port 22	         68.201.131.45
+    Web-1	             No	                         10.0.0.4
+    Web-2	             No	                         10.0.0.4
+    ELK	             Yes via port 5601	         68.201.131.45
+    Load Balancer	     Yes via port 80	         68.201.131.45
 
 
 Elk Configuration
@@ -104,8 +105,6 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-
-![ELK 1](https://user-images.githubusercontent.com/101161631/159062623-2468c2a9-0566-4517-9d4e-9a5ae212f4da.png)
 
 
 Target Machines & Beats
@@ -154,13 +153,17 @@ Which URL do you navigate to in order to check that the ELK server is running?
     In my infrastructure this is the URL  http://52.190.136.59:5601/ 
     
      
+![Kibana](https://user-images.githubusercontent.com/101161631/159068666-8b02bdfc-2949-421a-a1a5-63056f5d3b8b.png)
 
 
 
-![image](https://user-images.githubusercontent.com/101161631/159060903-e43e62e3-f020-40a3-b441-c5e1d1338541.png)
+
+Commands used  to download the playbook, update the files.
 
 
+    Ansible hosts file 
 
+[ Ansible hosts file.pdf](https://github.com/cricri2981/ELK-Stack-Proyect/files/8307207/Ansible.hosts.file.pdf)
 
 
 
