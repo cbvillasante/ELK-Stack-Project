@@ -158,10 +158,6 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 
 
-Commands used  to download the playbook, update the files.
-
-
-    Ansible hosts file 
 
 
 
